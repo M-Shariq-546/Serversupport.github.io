@@ -1,0 +1,415 @@
+body{
+    margin: 0px;
+    background-color: cadetblue;
+}
+.pic{
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+    left: 10px;
+}
+#btn{
+    background-color: darkcyan;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 60px;
+    margin-top: -48px;
+    left: 1044px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: 0.5s;
+    box-shadow: 4px 5px lightseagreen;
+    border-radius: 20px 20px 20px 20px;
+}
+#btn:hover{
+    background-color: pink;
+    color: black;
+}
+#head{
+    position: relative;
+    margin-left: 98px;
+    margin-top: -87px;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    font-size: 36px;
+    font-style: normal;
+    text-shadow: 1px 1px black;
+    margin-bottom: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+    font-style: italic;
+}
+#head:hover{
+    color: white;
+    font-style: italic;
+    text-shadow:  5px 5px 5px black;
+    transition-delay: 0.1s;
+}
+#data{
+   color: green;
+       font-size: 35px;
+       margin-top: 170px;
+       margin-left: 220px;
+       font-style: italic;
+       text-shadow: 1px 1px black;
+       font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#data1{
+    color: green;
+        font-size: 35px;
+        margin-top: 115px;
+        margin-left: 220px;
+        box-sizing: content-box;
+        font-style: italic;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+ #data1:hover{
+     color: brown;
+     transition-delay: 0.1s;
+     text-shadow: 4px 4px wheat;
+ }
+#para{
+    color: black;
+    font-size: 28px;
+    box-sizing: border-box;
+    border-left: 2px solid black;
+    border-radius: 1px solid black;
+    margin-top: -370px;
+    margin-left: 50px;
+    margin-right: 510px;
+    
+    padding: 5px;
+}
+#para1{
+    color: black;
+    font-size: 25px;
+    box-sizing: border-box;
+    border-left: 2px solid black;
+    border-radius: 1px solid black;
+    margin-top: -65px;
+    margin-left: 50px;
+    margin-right: 150px;
+    padding: 5px;
+}
+#fixed{
+    font-size: 70px;
+    width: 70px;
+}
+#serpic{
+    margin-right: 140px;
+    width: 350px;
+    right: 50px;
+    height: 250px;
+    float: right;
+    margin-top: 45px;
+}
+#vl {
+    border-left: 2px solid black;
+    height: 400px;
+    margin-top: 90px;
+    margin-left: 650px;
+}
+#httpserver{
+    left: 20;
+    margin-left: 150px;
+}
+#serhead{
+   right: 73px;
+       margin-left: 746px;
+       margin-top: -445px;
+       color: crimson;
+       margin-right: 165px;
+}
+#serhead:hover{
+    color: burlywood;
+    transition-delay: 0.3s;
+    transition-duration: 0.2s;
+}
+#vl1 {
+    border-left: 2px solid black;
+    height: 300px;
+    margin-top: 500px;
+    margin-left: 920px;
+}
+#vl2 {
+    border-left: 2px solid black;
+    height: 300px;
+    margin-top: -307px;
+    margin-left: 463px;
+}
+.container{
+    background-color: black;
+    border:1px solid black;
+    border-radius: 2px 2px 2px 2px;
+    color: black;
+    float: left;
+    left: 50px;
+    padding: 12px;
+    margin-top: 460px;
+    margin-left: 98px;
+}
+.container2{
+    border: 1px solid black;
+    border: 2px 2px 2px 2px;
+    background-color: black;
+    float: right;
+padding: 12px;
+margin-top: -313px;
+margin-right: -732px;    
+}
+.conatiner1{
+    border: 1px solid black;
+    border: 2px 2px 2px 2px;
+    background-color: black;
+    float: right;
+padding: 12px;
+margin-top: 460px;
+margin-right: 26px;
+}
+.formcontain{
+    background-color: burlywood;
+    width: 425px;
+    height: 570px;
+    color: black;
+    box-shadow: 1px solid black;
+    margin-left: 500px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+#logpic{
+    width: 425px;
+    height: 160px;
+    margin-left: 226px;
+    margin-top: 101px;
+    margin-bottom: -95px;   
+}
+#btn1{
+   background-color: pink;
+       padding: 10px 10px 10px 10px;
+       color: black;
+       position: relative;
+       text-align: center;
+       font-size: 17px;
+       float: left;
+       margin-right: -232px;
+       margin-bottom: 10px;
+       margin-top: 23px;
+       right: -230px;
+       cursor: pointer;
+       border: 1px solid black;
+       transition: 0.5s;
+       box-shadow: 4px 5px lightseagreen;
+       border-radius: 20px 20px 20px 20px;
+}
+#btn1:hover{
+    background-color: lightgreen;
+    color: lightslategray;
+}
+.footer
+{
+    background-color: lightskyblue;
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    width: auto;
+    margin-top: 150px;
+    margin-bottom: -18px;
+}
+#Order1{
+    position: relative;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+}
+#btn2{
+    background-color: pink;
+        padding: 10px 10px 10px 10px;
+        color: black;
+        position: relative;
+        text-align: center;
+        font-size: 17px;
+        float: left;
+        margin-right: -232px;
+        margin-bottom: 10px;
+        margin-top: 23px;
+        right: -147px;
+        cursor: pointer;
+        border: 1px solid black;
+        transition: 0.5s;
+        box-shadow: 4px 5px lightseagreen;
+        border-radius: 20px 20px 20px 20px;
+ }
+ #btn2:hover{
+     background-color: lightgreen;
+     color: lightslategray;
+ }
+ #para1{
+    color: black;
+    font-size: 30px;
+}
+#server
+{
+    width: 400px;
+    height: 450px;
+    left: 20px;
+    margin-left: 885px;
+    margin-top: -10%;
+}
+#rating{
+    left: 73px;
+    margin-right: 772px;
+    margin-top: -433px;
+    color: crimson;
+    margin-left: 223px;
+}
+#rating:hover{
+    color: burlywood;
+    transition-delay: 0.3s;
+transition-duration: 0.2s;
+}
+#client{
+    left: 30px;
+       margin-left: 275px;
+    width: 120px;
+    height: 120px;
+    margin-top: 70px;
+}
+#perc{
+    color: aqua;
+    left: 30px;
+    margin-left: 300px;
+    font-size: 45px;
+    width: 120px;
+    height: 120px;
+    margin-top: 38px; 
+    font-style: italic;
+}
+#perc:hover{
+    color: black;
+    font-style: italic;
+}
+#server2{
+    color: green;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    left: 100px;
+}
+#orpic{
+    margin-left: -50px;
+}
+#form{
+    background-color: none;
+        color: green;
+        font-size: 31px;
+        margin-left: 485px;
+        margin-right: 452px;
+        margin-top: 42px;
+        font-style: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+}
+#label{
+    color: green;
+    background-color: blue;
+    background: none;
+}
+#name , #message , #fname , #phone , #pict , #email , #city , #marital , #male , #female , #other , #Study , #Age , #pwd{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 10px;
+}
+#login{
+    color: rgb(224, 9, 45);
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+#fb , #insta , #linkedin{
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 40px;
+}
+#social{
+    color: white;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+#Name , #FName , #Phone , #Email , #City  , #study , #age , #password
+{
+    background-color: burlywood;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+#message{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;   
+}
+#submit{
+        background-color: pink;
+            padding: 10px 10px 10px 10px;
+            color: black;
+            position: relative;
+            text-align: center;
+            font-size: 17px;
+            float: left;
+            margin-right: -232px;
+            margin-bottom: 10px;
+            margin-top: 40px;
+            right: -177px;
+            cursor: pointer;
+            border: 1px solid black;
+            transition: 0.5s;
+            box-shadow: 4px 5px lightseagreen;
+            border-radius: 20px 20px 20px 20px;
+     }
+     #submit:hover{
+         background-color: lightgreen;
+         color: lightslategray;
+}
+#Back{
+    background-color: pink;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    margin-right: -232px;
+    margin-bottom: 10px;
+    margin-top: 23px;
+    right: -621px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: 0.5s;
+    box-shadow: 4px 5px lightseagreen;
+    border-radius: 20px 20px 20px 20px;   
+}
+#Back:hover{
+    background-color: lightgreen;
+    color: lightslategray;   
+}
+#head1{
+    color: lightsalmon;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    margin-top: 60px;
+}
