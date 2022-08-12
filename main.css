@@ -1,6 +1,9 @@
 body{
     margin: 0px;
-    background-color: cadetblue;
+    height: 100%;
+    display:block;
+    width: auto;
+    background-color:#373E98 ;
 }
 .pic{
     margin-top: 30px;
@@ -18,8 +21,8 @@ body{
     float: left;
     margin-left: 15px;
     margin-bottom: 60px;
-    margin-top: -48px;
-    left: 1044px;
+    margin-top: -45px;
+    left: 910px;
     cursor: pointer;
     border: 1px solid black;
     transition: 0.5s;
@@ -30,12 +33,26 @@ body{
     background-color: pink;
     color: black;
 }
+#cont{
+    margin-top: -85px;
+}
+#http{
+    margin-left: 430px;
+    margin-top: 35px;
+}
+#fig{
+    color: lightseagreen;
+    text-shadow: 1px 1px black;
+    margin-left: 8px;
+    font-size: 20px;
+    text-align: center;
+}
 #head{
+    color: aliceblue;
     position: relative;
-    margin-left: 98px;
-    margin-top: -87px;
+    margin-left: 167px;
+    margin-top: -110px;
     font-family: 'Times New Roman', Times, serif;
-    color: green;
     font-size: 36px;
     font-style: normal;
     text-shadow: 1px 1px black;
@@ -45,7 +62,7 @@ body{
     font-style: italic;
 }
 #head:hover{
-    color: white;
+    color: lightsalmon;
     font-style: italic;
     text-shadow:  5px 5px 5px black;
     transition-delay: 0.1s;
@@ -62,19 +79,16 @@ body{
 #data1{
     color: green;
         font-size: 35px;
+        text-shadow: 1px 1px black;
         margin-top: 115px;
         margin-left: 220px;
         box-sizing: content-box;
         font-style: italic;
         font-family:Georgia, 'Times New Roman', Times, serif;
  }
- #data1:hover{
-     color: brown;
-     transition-delay: 0.1s;
-     text-shadow: 4px 4px wheat;
- }
 #para{
     color: black;
+    text-shadow: 1px white;
     font-size: 28px;
     box-sizing: border-box;
     border-left: 2px solid black;
@@ -82,12 +96,12 @@ body{
     margin-top: -370px;
     margin-left: 50px;
     margin-right: 510px;
-    
     padding: 5px;
 }
 #para1{
     color: black;
-    font-size: 25px;
+    font-size: 28px;
+    text-shadow: 1px white;
     box-sizing: border-box;
     border-left: 2px solid black;
     border-radius: 1px solid black;
@@ -96,6 +110,32 @@ body{
     margin-right: 150px;
     padding: 5px;
 }
+#link{
+    color: lightcoral;
+}
+#details{
+    color: green;
+    text-shadow: 1px 1px black;
+    margin-left: 80px;
+    margin-top: 0px;
+    font-size: 38px;
+    box-sizing: content-box;
+        font-style: italic;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#para2{
+    margin-top: 10px;
+    color: black;
+    text-shadow: 1px white;
+    font-size: 28px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-left: 2px solid black;
+    border-radius: 1px solid black;
+    margin-left: 50px;
+    padding: 5px;
+}
+
 #fixed{
     font-size: 70px;
     width: 70px;
@@ -122,10 +162,12 @@ body{
    right: 73px;
        margin-left: 746px;
        margin-top: -445px;
+       text-shadow:1px 1px black;
        color: crimson;
        margin-right: 165px;
 }
 #serhead:hover{
+    text-shadow:1px 1px black;
     color: burlywood;
     transition-delay: 0.3s;
     transition-duration: 0.2s;
@@ -181,6 +223,18 @@ margin-right: 26px;
     margin-top: 150px;
     margin-bottom: 100px;
 }
+.conatiner1:hover{
+    box-shadow:10px 10px wheat;
+    transition: 0.8s;
+}
+.container2:hover{
+    box-shadow:10px 10px wheat;
+    transition: 0.8s;
+}
+.container:hover{
+    box-shadow:10px 10px wheat;
+    transition: 0.8s;
+}
 #logpic{
     width: 425px;
     height: 160px;
@@ -206,14 +260,29 @@ margin-right: 26px;
        box-shadow: 4px 5px lightseagreen;
        border-radius: 20px 20px 20px 20px;
 }
+#hor{
+    background-color: black;
+    margin-top: 42px;
+    border-color: black;
+}
+#hor1{
+    background-color: black;
+    margin-top: 35px;
+    border-color: black;
+}
+#hor2{
+    background-color: black;
+    margin-top: 120px;
+    border-color: black;
+}
 #btn1:hover{
     background-color: lightgreen;
     color: lightslategray;
 }
 .footer
 {
-    background-color: lightskyblue;
-    color: red;
+    background: linear-gradient(to right , #0072B5 0% , #00A170 100%);
+    color: white;
     font-size: 20px;
     font-weight: bolder;
     width: auto;
@@ -248,27 +317,25 @@ margin-right: 26px;
      background-color: lightgreen;
      color: lightslategray;
  }
- #para1{
-    color: black;
-    font-size: 30px;
-}
 #server
 {
     width: 400px;
     height: 450px;
     left: 20px;
-    margin-left: 885px;
+    margin-left: 940px;
     margin-top: -10%;
 }
 #rating{
     left: 73px;
     margin-right: 772px;
+    text-shadow:1px 1px black;
     margin-top: -433px;
     color: crimson;
     margin-left: 223px;
 }
 #rating:hover{
     color: burlywood;
+    text-shadow:1px 1px black;
     transition-delay: 0.3s;
 transition-duration: 0.2s;
 }
@@ -319,7 +386,7 @@ transition-duration: 0.2s;
     background-color: blue;
     background: none;
 }
-#name , #message , #fname , #phone , #pict , #email , #city , #marital , #male , #female , #other , #Study , #Age , #pwd{
+#name , #message , #fname , #phone , #pict , #email , #city , #marital , #male , #female , #other , #Study , #age , #pwd{
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -347,7 +414,7 @@ transition-duration: 0.2s;
     font-weight: bold;
     font-size: 30px;
 }
-#Name , #FName , #Phone , #Email , #City  , #study , #age , #password
+#Name , #FName , #Phone , #Email , #City  , #study , #Age , #password
 {
     background-color: burlywood;
     color: black;
@@ -412,4 +479,56 @@ transition-duration: 0.2s;
     text-align: center;
     text-shadow: 2px 2px black;
     margin-top: 60px;
+}
+#content{
+    width: 200px;
+    height: 150px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+#oop{
+    font-size: 29px;
+    color: white;
+    margin-left: 500px;
+}
+#oop:hover{
+    color: #00A170;
+    text-shadow: 1px black;
+}
+#code{
+    height: 450px;
+    width: 850px;
+    float: right;
+    left: 150px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.containeroop{
+    background-color: black;
+border:1px solid black;
+border-radius: 2px 2px 2px 2px;
+color: black;
+float: left;
+left: 50px;
+padding: 12px;
+margin-top: 460px;
+margin-left: 98px;
+}
+.conatiner1oop{
+    border: 1px solid black;
+    border: 2px 2px 2px 2px;
+    background-color: black;
+    float: right;
+padding: 12px;
+margin-top: 460px;
+margin-right: 26px;
+}
+.container2oop{
+    border: 1px solid black;
+    border: 2px 2px 2px 2px;
+    background-color: black;
+    float: right;
+padding: 12px;
+margin-top: -313px;
+margin-right: -732px;    
 }
