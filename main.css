@@ -218,6 +218,9 @@ margin-right: 26px;
     width: 425px;
     height: 570px;
     color: black;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 20px black;
+box-sizing: border-box;
     box-shadow: 1px solid black;
     margin-left: 500px;
     margin-top: 150px;
@@ -437,7 +440,7 @@ transition-duration: 0.2s;
             float: left;
             margin-right: -232px;
             margin-bottom: 10px;
-            margin-top: 40px;
+            margin-top: 20px;
             right: -177px;
             cursor: pointer;
             border: 1px solid black;
@@ -531,4 +534,33 @@ margin-right: 26px;
 padding: 12px;
 margin-top: -313px;
 margin-right: -732px;    
+}
+#submit1{
+    background-color: pink;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    margin-right: -232px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    right: -185px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: 0.5s;
+    box-shadow: 4px 5px lightseagreen;
+    border-radius: 20px 20px 20px 20px;
+}
+#submit1:hover{
+    background-color: lightgreen;
+color: lightslategray;
+}
+#havingacc{
+    margin-top: 30px;
+    color: black;
+    font-size: 23px;
+    text-align: center;
+    margin-left: 100px;
 }
